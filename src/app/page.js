@@ -30,7 +30,9 @@ export default async function Home() {
               </li>
             ))
           ) : (
-            <li>No socials found</li>
+            <li>No socials found <br/>
+            Because GitHub Pages is a static site hosting service. 
+            </li>
           )}
         </ul>
       </div>
